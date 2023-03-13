@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Mengatur Navbar */
+  nav {
+    background-color: #cccc;
+    height: 80px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.904);
+  }
+
+ /* Mengatur foto Navbar */
+  .logo-nav {
+    width: 60px;
+    float: left;
+    line-height: 80px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+   /* Mengatur tulisan dimenu Navbar */
+  .menu {
+    float: right;
+    margin-right: 80px;
+    line-height: 80px;
+    text-align: center;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  
+  .menu li a:hover {
+    background-color: #03001C;
+    color: #fff;
+  }
+  /* Mengatur heading */
+
+  .heading {
+    background-color: rgba(36, 63, 7, 0.3);
+    margin-top: 90px;
+    height: 190px;
+    border: 50px solid white;
+    display: flex;
+    align-items: center;
+  }
+   /* Mengatur logo Heading */
+  .logo-heading {
+    width: 150px;
+    height: auto;
+    margin-left: 25px;
+    border-radius: 50%;
+  }
+  /* Mengatur tulisan Heading */
+  .h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15px;
+  }
+  
+  .h1 h2 {
+    margin: 0;
+  }
+/* Mengatur button Heading */
+  .button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .kontak, .resume {
+    background-color: #3eacac;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  .kontak:hover , .resume:hover {
+    background-color: #fff; 
+    color: #03001C; 
+    cursor: pointer; 
+  }
+/* Mengatur data Heading */
+  .biodata {
+   color: #fff;
+   margin-left: 100px;
+   display: block;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   margin-bottom: 30px;
+  }
+
+  .biodata-isi {
+   color: #fff;
+   display: block;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   margin-bottom: 30px;
+  }
+
+   /* Mengatur Form */
+   .form {
+    max-width: 1250px; 
+    margin: 0 auto;
+  }
+  
+  .label, input, textarea {
+    display: block;
+    margin-bottom: 10px; 
+  }
+  
+  .input, textarea {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    width: 100%; 
+    box-sizing: border-box;
+  }
+  
+  .button-form {
+    background-color: #3b803d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 1250px;
+    font-size: 20px;
+  }
+  
+  .button-form:hover {
+    background-color: #276829;
+  }
